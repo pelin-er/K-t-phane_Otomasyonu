@@ -71,6 +71,8 @@ Alanlar:
 - YazarAd
 - YazarSoyad
 
+Normalizasyon: 1NF, 2NF ve 3NF kurallarına uygundur. Her yazar kaydı tekil olup tekrar eden veri bulunmamaktadır.
+
 ## Kategoriler
 
 Kitap kategorilerinin tutulduğu tablodur.
@@ -79,6 +81,8 @@ Alanlar:
 
 - KategoriID
 - KategoriAdi
+
+Normalizasyon: 1NF ve 2NF kurallarına uygundur. Kategori bilgisi tek bir tabloda tutulmuş ve veri tekrarı oluşmamıştır.
 
 ## Yayinevleri
 
@@ -89,6 +93,8 @@ Alanlar:
 - YayineviID
 - YayineviAdi
 - Adres
+
+Normalizasyon: 1NF ve 2NF kurallarına uygundur. Yayınevi bilgileri kitap tablosundan ayrılarak veri tekrarının önüne geçilmiştir.
 
 ## Kitaplar
 
@@ -104,6 +110,8 @@ Alanlar:
 - YayineviID
 - SayfaSayisi
 - StokSayisi
+
+Normalizasyon: 3NF’e uygundur. Yazar, kategori ve yayınevi bilgileri ayrı tablolarda tutulmuş ve kitap tablosunda sadece foreign key ilişkileri kullanılmıştır.
 
 Özellikler:
 
@@ -123,6 +131,8 @@ Alanlar:
 - Eposta
 - KayitTarihi
 - AktifMi
+
+Normalizasyon: 1NF ve 2NF kurallarına uygundur. Üye bilgileri atomik yapıda ve e-posta alanı unique şekilde tanımlanmıştır.
 
 Özellikler:
 
@@ -149,6 +159,7 @@ Durum alanı:
 
 değerlerinden birini alabilmektedir.
 
+Normalizasyon: 2NF ve 3NF’e uygundur. İşlem bilgileri ayrı tabloda tutulmuş, kitap ve üye bilgileri foreign key ile ilişkilendirilmiştir.
 
 
 # ER Diyagramı
