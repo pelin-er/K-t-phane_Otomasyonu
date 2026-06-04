@@ -1,4 +1,4 @@
-# KUTUPHANE OTOMASYON SİSTEMI
+# KÜTÜPHANE OTOMASYON SİSTEMİ
 
 ## Proje Hakkında
 
@@ -291,7 +291,7 @@ Bu sayede stok işlemleri manuel olarak yapılmamaktadır.
 
 ## Index
 
-Performansı artırmak amacıyla aşağıdaki indeksler oluşturulmuştur:
+Aşağıdaki indeksler ile sistem performansı arttırılmıştır:
 
 - IDX_KitapIsmi
 - IDX_UyeEposta
@@ -327,7 +327,7 @@ Eklenen veriler:
 - 12 adet üye
 - 11 adet emanet kaydı
 
-Bu veriler kullanılarak sistemin tüm fonksiyonları test edilmiştir.
+Bu veriler kullanılarak sistemin fonksiyonları test edilmiştir.
 
 
 
