@@ -260,7 +260,7 @@ Kullanılan tablolar:
 
 ### Örnek Çıktı
 
-![View Sonucu](images/view_sonucu.png)
+![View Sonucu](images/view_sonucu.jpeg)
 
 
 
@@ -322,31 +322,27 @@ Bu veriler kullanılarak sistemin tüm fonksiyonları test edilmiştir.
 
 # Uygulama Ekran Görüntüleri
 
-## Ana Sayfa
-
-![Ana Sayfa](images/anasayfa.png)
-
 ## Kitap Ekleme
 
-![Kitap Ekleme](images/kitap_ekle.png)
+![Kitap Ekleme](images/kitap_ekle.jpeg)
 
 ## Aynı ISBN ile Kitap Ekleme Hatası
 
-![ISBN Hatası](images/isbn_hata.png)
+![ISBN Hatası](images/isbn_hata.jpeg)
 
 Bu ekran, ISBN alanının UNIQUE olarak tanımlandığını ve aynı ISBN ile ikinci kez kayıt oluşturulamadığını göstermektedir.
 
 ## Üye Ekleme
 
-![Üye Ekleme](images/uye_ekle.png)
+![Üye Ekleme](images/uye_ekle.jpeg)
 
 ## Kitap Ödünç Verme
 
-![Ödünç Verme](images/odunc_ver.png)
+![Ödünç Verme](images/odunc_ver.jpeg)
 
 ## Kitap İade İşlemi
 
-![İade İşlemi](images/iade_al.png)
+![İade İşlemi](images/iade_al.jpeg)
 
 
 
